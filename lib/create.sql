@@ -6,3 +6,9 @@ CREATE TABLE projects (
   start_date INTEGER,
   end_date INTEGER
 );
+
+CREATE TABLE user (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  age INTEGER
+);
